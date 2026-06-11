@@ -30,7 +30,7 @@ jobs:
         # Building the drone_core and other native packages
         # (Excluding ORB_SLAM3 if it takes too long for CI, or include it if needed)
         source /opt/ros/humble/setup.bash
-        colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release --packages-skip orbslam3
+        colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release --packages-select drone_core
 
     - name: Run Tests
       run: |
