@@ -1,0 +1,68 @@
+# ROS2 build artifacts
+build/
+install/
+log/
+src/build/
+src/install/
+src/log/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# C/C++
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.cmake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*.out
+*.app
+
+# ROS2 specific / Data
+*.db3
+*.bag
+*.mcap
+*.pcd
+*.ply
+*.yaml
+!orb_slam3_config.yaml
+!camera.yaml
+!imu.yaml
+!checkerboard.yaml
+
+# IDE / OS
+.vscode/
+.idea/
+.vs/
+*.swp
+*~
+.DS_Store
+
+# Temporary & Log files
+KeyFrameTrajectory.txt
+*.log
+scratch.py
+calib_bag/
+
+# ORB_SLAM3 specifics (if you have the repo inside src)
+src/ORB_SLAM3/build/
+src/ORB_SLAM3/lib/
+src/ORB_SLAM3/Thirdparty/DBoW2/build/
+src/ORB_SLAM3/Thirdparty/DBoW2/lib/
+src/ORB_SLAM3/Thirdparty/g2o/build/
+src/ORB_SLAM3/Thirdparty/g2o/lib/
+src/ORB_SLAM3/Vocabulary/ORBvoc.txt

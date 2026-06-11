@@ -1,0 +1,10 @@
+../Core/Src/main.c:105:13:bmi160_cs_low	8	static
+../Core/Src/main.c:110:13:bmi160_cs_high	8	static
+../Core/Src/main.c:115:26:bmi160_read	24	static
+../Core/Src/main.c:131:26:bmi160_write	24	static
+../Core/Src/main.c:143:16:bmi160_init	16	static
+../Core/Src/main.c:182:13:imu_publish_sample	24	static,ignoring_inline_asm
+../Core/Src/main.c:225:5:main	8	static
+../Core/Src/main.c:283:6:SystemClock_Config	88	static
+../Core/Src/main.c:325:6:HAL_TIM_PeriodElapsedCallback	16	static
+../Core/Src/main.c:340:6:Error_Handler	4	static,ignoring_inline_asm
