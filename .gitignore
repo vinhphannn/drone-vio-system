@@ -64,5 +64,7 @@ src/ORB_SLAM3/lib/
 src/ORB_SLAM3/Thirdparty/DBoW2/build/
 src/ORB_SLAM3/Thirdparty/DBoW2/lib/
 src/ORB_SLAM3/Thirdparty/g2o/build/
-src/ORB_SLAM3/Thirdparty/g2o/lib/
 src/ORB_SLAM3/Vocabulary/ORBvoc.txt
+src/ORB_SLAM3/Vocabulary/ORBvoc.txt.tar.gz
+src/ORB_SLAM3_ROS2/vocabulary/ORBvoc.txt
+src/ORB_SLAM3_ROS2/vocabulary/ORBvoc.txt.tar.gz
